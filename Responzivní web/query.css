@@ -1,0 +1,156 @@
+@media (max-width: 1168px) {
+    header ul {
+        width: 80%;
+        
+        
+        
+    }
+
+    .main-box h1 {
+        width: 80%;
+        margin-right: 150px;
+
+    }
+    
+    .about-us {
+    flex-direction: column;
+    align-items: center;
+    
+}
+.about-us-img img {
+    margin-top: 25px;
+}
+
+.people-reviews {
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+@media (max-width: 941px) {
+    .Where-you-wanna-go {
+        flex-direction: column;
+        
+    }
+}
+
+@media (max-width: 941px) {
+    .Where-you-wanna-go  {
+        flex-direction: column;
+        padding-left: 190px;
+        
+
+    }
+
+    .Where-you-wanna-go h1 {
+        padding-bottom: 20px;
+    }
+
+    .button {
+        margin-left: 3px;
+    }
+}
+
+@media (max-width: 850px) {
+    header {
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+
+    }
+
+    .people-reviews {
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
+
+
+@media (max-width: 787px) {
+    header ul {
+        font-size: 12px;
+
+    }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+  }
+  
+    .main-box {
+    
+    flex-direction: column;
+    }
+    
+    .about-us {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .about-us-img img {
+        margin-top: 25px;
+    }
+
+    .what-we-do-text {
+        width: 400px;
+    }
+
+    .what-we-do-img {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .Where-you-wanna-go {
+        flex-direction: column;
+        padding-top: 40px;
+        padding-left: 170px;
+       width: 780px;
+       
+
+    }
+
+    .Where-you-wanna-go h1 {
+        margin-bottom: 25px;
+    }
+
+    .button {
+        margin-left: 3px;
+    }
+
+
+.footer {
+    width: 120%;
+}
+
+}
+
+ 
+
+@media (max-width: 703px) {
+    header {
+        width: 120%;
+    }
+    .main-box {
+        width: 120%;
+    }
+
+    .what-we-do {
+        width: 120%;
+    }
+}
+
+
+
+@media (max-width: 518px) {
+    header {
+        flex-direction: row;
+        justify-content: flex-end;
+        text-align: end;
+    }
+}

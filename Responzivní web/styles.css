@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+ 
+  background-color: #333;
+  height: 40px;
+  
+
+}
+
+header ul {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+header li {
+    display: inline-block;
+    padding: 10px 50px;
+    
+
+}
+
+header a {
+  color: #f2f2f2;
+text-decoration: none;
+
+}
+
+header a:hover {
+  color: #e9877b;
+}
+
+/* main box */
+.main-box {
+  height: 130vh;
+  background: url(/img/bg.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.main-box h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 60px;
+  margin-right: 130px;
+  margin-bottom: 40px;
+  text-align: right;
+
+}
+
+/* about-us */
+
+.about-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ padding: 60px;
+ gap: 0px 40px;
+ background-color: #f2f2f2;
+
+
+}
+
+.about-us-text h2 {
+  margin-bottom: 15px;
+}
+
+.about-us-text {
+width: 400px;
+font-size: 16px;
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+.about-us-img img {
+  width: 400px;
+  border-radius: 5px;
+
+}
+
+
+.what-we-do {
+  background-color: #33292a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center; 
+  margin: 0;
+  padding: 20px;
+  
+}
+
+
+.what-we-do-text {
+  width: 700px;
+
+  
+}
+
+.what-we-do h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.what-we-do p {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.what-we-do-img {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+
+.what-we-do-img img {
+  margin: 12px;
+  width: 50px;
+}
+
+.images {
+  position: relative;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.images img {
+  width: 272px;
+  height: 222px;
+  border-radius: 5px;
+  margin: 1.25px;
+  
+}
+
+.images-layout {
+  flex-basis: 55.56%;
+  text-align: center;
+ 
+}
+
+
+.Where-you-wanna-go {
+  
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ padding-top: 70px;
+ padding-bottom: 80px;
+ background-color:  #644B4F;
+ color: white;
+ 
+ 
+}
+
+.where-to-text {
+  width: 400px;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 10px;
+
+}
+
+.where-to-text-p {
+  width: 500px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.button {
+  position: absolute;
+  bottom: 15px;
+  margin-left: 35px;
+  border: 1px solid black;
+  background-color: white;
+  color:black;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  
+
+  
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.button a:hover {
+  color: #e9877b;
+}
+
+.reviews {
+  
+  background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  
+  
+}
+
+.reviews-wrap {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.reviews-wrap h1 {
+  padding-bottom: 25px;
+  font-size: 30px;
+}
+
+.reviews-wrap p {
+  padding-bottom: 35px;
+}
+
+.people-reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  gap: 150px;
+  margin-top: 50px;
+  font-size: 16px;
+
+ 
+
+}
+
+
+
+.bertie-img {
+  margin-bottom: 25px;
+  padding-left:  100px;
+  
+  
+
+}
+
+
+
+.frank-img {
+  margin-bottom: 25px;
+  padding-left:  100px;
+  
+
+}
+
+.bertie-review p {
+  width: 344px;
+  height: 152px;
+  text-align: center;
+}
+
+.frank-review p {
+  width: 344px;
+  height: 152px;
+  text-align: center;
+}
+
+.bold-b {
+ font-weight: bold;
+
+}
+
+.bold-f {
+  font-weight: bold;
+
+}
+
+.photos {
+  margin-top: 150px;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+
+}
+
+.photos-wrap img {
+  width: 717px;
+  height: 420.25px;
+ 
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  #333333;
+  height: 114px;
+  padding-top: 30px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  
+  
+
+}
+
+.contact {
+  padding-bottom: 12px;
+  
+  
+
+}
+
+.contact a {
+  color: #644b4f;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  color: #e9877b;
+}
+
+.copyright {
+  color: white;
+  
+}
